@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51980c84-927b-4559-b09f-b1a8197f7f9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/acme.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/emr-scala-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/emr-scala.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/mapper.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/reducer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/src/main/scala/EMR.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/src/main/scala/Types.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/classes/acme/EMR$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/classes/acme/EMR.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/classes/acme/types/Imports$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/classes/acme/types/Imports$AcmeCustomerAttributes$$anon$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/classes/acme/types/Imports$AcmeCustomerAttributes$$anon$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/classes/acme/types/Imports$AcmeCustomerAttributes$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/classes/acme/types/Imports$AcmeCustomerAttributes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/classes/acme/types/Imports$AcmeSegmentInfo$$anon$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/classes/acme/types/Imports$AcmeSegmentInfo$$anon$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/classes/acme/types/Imports$AcmeSegmentInfo$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/classes/acme/types/Imports$AcmeSegmentInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/classes/acme/types/Imports$FromRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/classes/acme/types/Imports$FromRecordSyntax.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/classes/acme/types/Imports$ToRecord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/classes/acme/types/Imports$ToRecordSyntax.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/classes/acme/types/Imports.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/com.takt/acme$sources/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/com.takt/acme$sources/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/com.takt/acme_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/com.takt/acme_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/org.scala-sbt.temp/temp-module-98ec89c315ed408f615fff2c4774286d17323b01/1.0.0/resolved.xml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/org.scala-sbt.temp/temp-module-98ec89c315ed408f615fff2c4774286d17323b01/1.0.0/resolved.xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme$sources-compile-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme$sources-compile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme$sources-optional.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme$sources-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme$sources-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme$sources-provided.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme$sources-runtime-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme$sources-runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme$sources-scala-tool.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme$sources-test-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme$sources-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme_2.12-compile-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme_2.12-compile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme_2.12-optional.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme_2.12-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme_2.12-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme_2.12-provided.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme_2.12-runtime-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme_2.12-runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme_2.12-scala-tool.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme_2.12-test-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/com.takt-acme_2.12-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/ivy-report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/ivy-report.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/org.scala-sbt.temp-temp-module-98ec89c315ed408f615fff2c4774286d17323b01-compile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/org.scala-sbt.temp-temp-module-98ec89c315ed408f615fff2c4774286d17323b01-optional.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/org.scala-sbt.temp-temp-module-98ec89c315ed408f615fff2c4774286d17323b01-provided.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/org.scala-sbt.temp-temp-module-98ec89c315ed408f615fff2c4774286d17323b01-runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/scala-2.12/resolution-cache/reports/org.scala-sbt.temp-temp-module-98ec89c315ed408f615fff2c4774286d17323b01-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/$global/$global/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/$global/ivySbt/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/$global/projectDescriptors/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/compile/$global/$global/discoveredMainClasses/data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/compile/compile/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/compile/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/compile/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/runtime/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/test/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme/target/streams/test/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acme_customer_attributes.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/src/main/scala/Mapper.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/.history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/classes/acme/mapper/Main$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/classes/acme/mapper/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/com.takt/mapper$sources/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/com.takt/mapper$sources/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/com.takt/mapper_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/com.takt/mapper_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper$sources-compile-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper$sources-compile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper$sources-optional.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper$sources-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper$sources-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper$sources-provided.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper$sources-runtime-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper$sources-runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper$sources-scala-tool.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper$sources-test-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper$sources-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper_2.12-compile-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper_2.12-compile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper_2.12-optional.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper_2.12-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper_2.12-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper_2.12-provided.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper_2.12-runtime-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper_2.12-runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper_2.12-scala-tool.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper_2.12-test-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/com.takt-mapper_2.12-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/ivy-report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/scala-2.12/resolution-cache/reports/ivy-report.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/$global/$global/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/$global/ivySbt/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/$global/projectDescriptors/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/compile/$global/$global/discoveredMainClasses/data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/compile/compile/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/compile/fullClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/compile/mainClass/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/compile/run/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/compile/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/compile/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/runtime/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/test/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapper/target/streams/test/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/config-classes/$ea1d0cd197edb850b2d2$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/config-classes/$ea1d0cd197edb850b2d2.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/config-classes/$ea1d0cd197edb850b2d2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/emr-scala-build/scala_2.12/sbt_1.0/0.1-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/emr-scala-build/scala_2.12/sbt_1.0/0.1-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-emr-scala-build-compile-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-emr-scala-build-compile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-emr-scala-build-optional.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-emr-scala-build-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-emr-scala-build-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-emr-scala-build-provided.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-emr-scala-build-runtime-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-emr-scala-build-runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-emr-scala-build-scala-tool.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-emr-scala-build-test-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-emr-scala-build-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/$global/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/ivySbt/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/projectDescriptors/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/$global/$global/discoveredMainClasses/data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/compile/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/compile/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/src/main/scala/Reducer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/com.takt/reducer$sources/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/com.takt/reducer$sources/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/com.takt/reducer_2.12/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/com.takt/reducer_2.12/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer$sources-compile-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer$sources-compile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer$sources-optional.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer$sources-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer$sources-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer$sources-provided.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer$sources-runtime-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer$sources-runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer$sources-scala-tool.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer$sources-test-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer$sources-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer_2.12-compile-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer_2.12-compile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer_2.12-optional.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer_2.12-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer_2.12-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer_2.12-provided.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer_2.12-runtime-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer_2.12-runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer_2.12-scala-tool.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer_2.12-test-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/com.takt-reducer_2.12-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/ivy-report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/scala-2.12/resolution-cache/reports/ivy-report.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/streams/$global/ivySbt/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/streams/$global/projectDescriptors/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/streams/compile/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/streams/compile/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/streams/runtime/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/streams/test/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reducer/target/streams/test/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/emr-scala$sources/0.1-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/emr-scala$sources/0.1-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/emr-scala_2.12/0.1-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/emr-scala_2.12/0.1-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala$sources-compile-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala$sources-compile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala$sources-optional.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala$sources-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala$sources-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala$sources-provided.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala$sources-runtime-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala$sources-runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala$sources-scala-tool.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala$sources-test-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala$sources-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala_2.12-compile-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala_2.12-compile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala_2.12-optional.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala_2.12-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala_2.12-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala_2.12-provided.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala_2.12-runtime-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala_2.12-runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala_2.12-scala-tool.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala_2.12-test-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-emr-scala_2.12-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/ivy-report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/ivy-report.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/$global/ivySbt/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/$global/projectDescriptors/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/compile/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/compile/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/streams/test/unmanagedJars/$global/streams/export" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/acme/target/" />
+    <ignored path="$PROJECT_DIR$/mapper/target/" />
+    <ignored path="$PROJECT_DIR$/reducer/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.sbt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acme/src/main/scala/EMR.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="35" column="11" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/acme/src/main/scala/Types.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1128">
+              <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mapper/src/main/scala/Mapper.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+              <folding>
+                <element signature="e#21#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar!/java/lang/String.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="824" column="22" lean-forward="true" selection-start-line="824" selection-start-column="22" selection-end-line="824" selection-end-column="22" />
+              <folding>
+                <element signature="e#25221#25222#0" expanded="true" />
+                <element signature="e#25263#25264#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reducer/src/main/scala/Reducer.scala">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/acme/src/main/scala/Types.scala" />
+        <option value="$PROJECT_DIR$/mapper/src/main/scala/Mapper.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="VmOPxxhH" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="width" value="3820" />
+    <option name="height" value="2062" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="emr-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emr-scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emr-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emr-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="acme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emr-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emr-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="acme" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emr-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emr-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="acme" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emr-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emr-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="acme" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emr-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emr-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emr-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emr-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emr-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emr-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emr-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emr-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emr-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emr-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emr-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emr-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="reducer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emr-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emr-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="reducer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emr-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emr-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="reducer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emr-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emr-scala" type="462c0819:PsiDirectoryNode" />
+              <item name="reducer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emr-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="emr-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="emr-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emr-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emr-scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="acme.mapper.Main" />
+      <module name="mapper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="acme.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="emr-scala" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="emr-scala [file:/home/alexwort/projects/emr-scala/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="acme [file:/home/alexwort/projects/emr-scala/]" />
+                <option name="path" value="$PROJECT_DIR$/acme" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="mapper [file:/home/alexwort/projects/emr-scala/]" />
+                <option name="path" value="$PROJECT_DIR$/mapper" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="reducer [file:/home/alexwort/projects/emr-scala/]" />
+                <option name="path" value="$PROJECT_DIR$/reducer" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="emr-scala-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="3490832843" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="1876451207" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/itv/assetmanagement-ingestgatekeeper" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/contentdelivery-assetpurger" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/contentdelivery-bundlemetadataservice" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/contentdelivery-cloudtranscodingservice" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/contentdelivery-contentsourcing" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/contentdelivery-deliverymetadatapopulator" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/contentdelivery-e2e" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/contentdelivery-e2e-workflows" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/contentdelivery-e2estubs" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/contentdelivery-healthcheck" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/contentdelivery-http4s-core" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/contentdelivery-lambdahandler" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/contentdelivery-live2vodlambdas" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/contentdelivery-mediaverification" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/contentdelivery-orchestrator" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/contentdelivery-profileservice" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/contentdelivery-s3manager" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/contentdelivery-timecodeservice" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/contentdelivery-transcodequeue" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/fulfilmentplanning-orchestrator" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/skydelivery" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/training/fds" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/workbench-example-app" value="PREVIEW" />
+        <entry key="$USER_HOME$/itv/workorder-service" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51980c84-927b-4559-b09f-b1a8197f7f9b" name="Default Changelist" comment="" />
+      <created>1561010793516</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561010793516</updated>
+      <workItem from="1561010799272" duration="4147000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4147000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="0" width="3820" height="2062" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986653" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Build" weight="0.32980973" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3312102" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32980973" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Cargo" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="sbt" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reducer/src/main/scala/Reducer.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar!/java/lang/String.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="824" column="22" lean-forward="true" selection-start-line="824" selection-start-column="22" selection-end-line="824" selection-end-column="22" />
+          <folding>
+            <element signature="e#25221#25222#0" expanded="true" />
+            <element signature="e#25263#25264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acme/src/main/scala/EMR.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acme/src/main/scala/Types.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1128">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapper/src/main/scala/Mapper.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+          <folding>
+            <element signature="e#21#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Python 3.6 (venv)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
